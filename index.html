@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>김신종 | 프론트엔드 개발자 포트폴리오</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Passion+One&display=swap"
+      rel="stylesheet"
+    />
+    <link href="style.css" , rel="stylesheet" , type="text/css" />
+    <link href="reset.css" , rel="stylesheet" , type="text/css" />
+    <link
+      rel="stylesheet"
+      ,
+      href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <header>
+        <div class="mainText">
+          <strong>Welcome</strong>
+          <div class="slide">
+            <ul class="textSlide">
+              <li class="slide-txt">함께 소통하</li>
+              <li class="slide-txt">함께 성장하</li>
+              <li class="slide-txt">책임감이 있</li>
+            </ul>
+            <p>
+            는 개발자<br>김신종입니다&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            </p>
+          </div>
+        </div>
+
+        <nav>
+          <ul class="gnb">
+            <li class="btn" data-tabnum="1">
+              <a href="#">Project</a>
+            </li>
+            <li class="btn on" data-tabnum="0">
+              <a href="#">About Me</a>
+            </li>
+            <li class="btn" data-tabnum="2">
+              <a href="#">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <div class="wrapper">
+        <section id="about" class="content">
+          <div class="who">
+            <h1>Who.</h1>
+            <div class="me">
+              <div class="meImg">
+                <img src="images/me.jpg" />
+              </div>
+              <div class="meText">
+                <div class="meTextImg">
+                  <img src="images/aboutMe.png" alt="프론트엔드 개발자" />
+                </div>
+                <p>
+                  <span>1995.10.26 26세</span> <br />
+                  안녕하세요 프론트엔드 개발자 김신종입니다. <br />
+                  올해 초 웹 개발을 처음 접한 뒤 하나씩 알아가는 재미에 빠져
+                  하루하루가 다르게 열심히 공부하고 성장하는 중입니다. <br />
+                  시시각각 변화하는 개발 트렌드를 따라가며, 다양한 시도를 해보고
+                  있습니다. <br />
+                  매번 사용자가 필요로 하는 것이 무엇일까 생각하고 만족감을
+                  주기위해 노력하고 있습니다. <br />
+                </p>
+              </div>
+            </div>
+            <h1>Skills.</h1>
+            <div class="skills">
+              <div class="frontSkill">
+                <h5>Front-end</h5>
+                <div class="skillsImg">
+                  <div>
+                    <span class="html5"></span>
+                    <p>HTML5</p>
+                  </div>
+                  <div>
+                    <span class="css3"></span>
+                    <p>CSS3</p>
+                  </div>
+                  <div>
+                    <span class="vanilla"></span>
+                    <p>Javascript<br />(Vanilla)</p>
+                  </div>
+                  <div>
+                    <span class="es6"></span>
+                    <p>
+                      Javascript<br />
+                      ES6
+                    </p>
+                  </div>
+                  <div>
+                    <span class="react"></span>
+                    <p>React</p>
+                  </div>
+                </div>
+              </div>
+              <div class="backSkill">
+                <h5>Back-end</h5>
+                <div class="skillsImg">
+                  <div>
+                    <span class="node"></span>
+                    <p>Node.js</p>
+                  </div>
+                  <div>
+                    <span class="express"></span>
+                    <p>Express</p>
+                  </div>
+                  <div>
+                    <span class="git"></span>
+                    <p>Git</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="project" class="content">
+          <div class="gridWrap">
+            <!-- 피아니스트 개인사이트 -->
+            <div id="modal" class="modal">
+              <div class="pianistPersonalSiteImg"></div>
+              <div class="modalText">
+                <h3>피아니스트 개인사이트</h3>
+                <span>상시 업데이트 중</span>
+              </div>
+            </div>
+            <!-- 피아니스트 개인사이트 모달창 -->
+            <div class="modalContainer hidden">
+              <div class="modal_wrap">
+                <div class="modal_body">
+                  <div class="modal_content">
+                    <button>X</button>
+                    <img src="images/pianistPersonalSiteView.jpg" />
+                    <div class="weblink">
+                      <p>
+                        github로 배포한 피아니스트 개인사이트를 바로 확인해보세요!
+                      </p>
+                      <a
+                        href="https://ji-sunglee.github.io/"
+                        target="_blank"
+                        >사이트 바로가기</a
+                      >
+                      <p>깃허브에서 코드를 확인하실 수 있습니다.</p>
+                      <a
+                        href="https://github.com/ji-sunglee/ji-sunglee.github.io"
+                        target="_blank"
+                        >깃허브 바로가기</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="modal_overlay"></div>
+            </div>
+          </div>
+        </section>
+        <section id="contact" class="content">
+          <div class="contactWrap">
+            <div class="mail">
+              <h1>Communication.</h1>
+              <div class="mailLink">
+                <i class="far fa-envelope"></i>
+                <a href="mailto:shinjongk@gmail.com"> shinjongk@gmail.com</a>
+                <i class="fab fa-github"></i>
+                <a href="https://github.com/shinjongkim" target="_blank"
+                  >https://github.com/shinjongkim</a
+                >
+              </div>
+              <span
+                >메일을 보내주시면 <br />최대한 빠르게 답장 드리겠습니다 :
+                )</span
+              >
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <footer>
+        <span>ⓒ 2020 김신종 all rights reserved.</span>
+      </footer>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
